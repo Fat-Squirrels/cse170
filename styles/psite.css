@@ -335,7 +335,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/codeattack.png");
+          background-image: url("../image/diversestudents.jpg");
         
           /* Set a specific height */
           min-height: 500px;
@@ -349,7 +349,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/codeattack.png");
+          background-image: url("../image/diversestudents.jpg");
           /* Set a specific height */
           min-height: 500px;
           
@@ -379,7 +379,7 @@ div.common_para_two{
 
 .dataparallax {
   /* The image used */
-  background-image: url("../images/datagrid.png");
+  background-image: url("../image/happystudent.png");
 
   /* Set a specific height */
   min-height: 500px;
@@ -420,7 +420,7 @@ div.common_para_two{
 
 .dataparallax_main {
   /* The image used */
-  background-image: url("../images/data.png");
+  background-image: url("../image/happystudent.png");
 
   /* Set a specific height */
   min-height: 500px;
@@ -434,7 +434,7 @@ div.common_para_two{
 
 .dataparallax_intro {
   
-  background-image: url("../images/introstairs.png");
+  background-image: url("../image/happystudent.png");
 
   
   min-height: 500px;
