@@ -17,11 +17,11 @@
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #020203; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --paragraph-background-color: #006EB6  ;
+  --nav-link-color: #006EB6;
   --nav-background-color: #d3d2d2;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #006EB6;
 }
 body {
   margin: 0 auto;
@@ -47,7 +47,7 @@ article .iframe{
   height: 500px;
 }
 
-.cyberlogo{
+.essentialslogo{
   width: 80px;
 }
 
@@ -186,12 +186,12 @@ nav a:hover {
 }
 
 footer{
-  background-color: #396E94;
+  background-color: #006EB6;
   color: white;
   margin-top: 0px;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 70% 1fr;
   text-align: center;
 }
 
@@ -225,8 +225,6 @@ footer p .copy{
   font-size: small;
 }
 
-
-/* Common Cyber Attacks */
 
 article{ 
   width: 80%; 
