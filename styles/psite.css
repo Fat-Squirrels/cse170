@@ -406,7 +406,6 @@ div.common_para_two{
   font-size: 3em; /* Adjust font size as needed */
   padding: 20px;
   background-color:rgba(0, 109, 182, 0.874);
-  text-shadow: #020203;
   width: 300px;
 
 }
@@ -465,3 +464,4 @@ div.common_para_two{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
