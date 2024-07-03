@@ -465,3 +465,7 @@ div.common_para_two{
   background-size: cover;
 }
 
+.para_intro {
+  line-height: 2.5;
+}
+
