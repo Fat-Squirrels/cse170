@@ -399,7 +399,7 @@ div.common_para_two{
   left: 50%;
   transform: translate(-50%, -50%);
   /* Additional styles for better visibility */
-  color: white;
+  color: black;
   text-align: center;
   font-size: 3em; /* Adjust font size as needed */
 }
