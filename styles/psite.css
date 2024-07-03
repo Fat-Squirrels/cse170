@@ -242,7 +242,9 @@ h1.com_atth1{
   font-size: 3.5em;
   color: white;
   margin: 0;
-  height: 40%;
+  padding: 20px;
+  height: 13%;
+  background: rgb(0, 109, 182, 0.874);
 }
 
 iframe {
@@ -278,8 +280,8 @@ div.common_para_two{
 
 .msg {
   background-color: var(--paragraph-background-color); 
-  padding: 20px; 
-  margin-top: 53px; 
+  padding: 35px; 
+  margin-top: 0px; 
   color: var(--paragraph-color-on-white); 
   text-align: center; 
   box-shadow: 30px 5px 10px #6f7364; 
@@ -368,7 +370,7 @@ div.common_para_two{
           left: 50%;
           transform: translate(-50%, -50%);
           /* Additional styles for better visibility */
-          color: white;
+          color: black;
           text-align: center;
           font-size: 3em;
         }
