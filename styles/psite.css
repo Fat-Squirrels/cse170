@@ -103,7 +103,10 @@ h1.headercard {
 
 h2.head2_container{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  background-color: #006EB6;
+  border-radius: 1.5em;
+  color: white;
 }
 
 h2.sub2head2 {
@@ -238,16 +241,6 @@ h2.cyber_news{
   text-align: center;
 }
 
-h1.com_atth1{
-  text-align: center;
-  font-size: 3.5em;
-  color: white;
-  margin: 0;
-  padding: 20px;
-  height: 13%;
-  background: rgb(0, 109, 182, 0.874);
-}
-
 iframe {
   width: 100%;
 }
@@ -256,9 +249,9 @@ p .commonattacks{
   padding: 20px 50px;
 }
 
-main.common_cyber_main{
+/* main.common_cyber_main{
   margin-top: 0px;
-}
+} */
 
 div.overlap{
   display: grid;
@@ -396,19 +389,6 @@ div.common_para_two{
           position: relative;
         }
 
-        .com_atth1 {
-          /* Position the heading absolutely */
-          position: absolute;
-          /* Center the heading vertically and horizontally */
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          /* Additional styles for better visibility */
-          color: black;
-          text-align: center;
-          font-size: 3em;
-        }
-
 /* Student Life */
 
 .life_parallax {
@@ -427,7 +407,7 @@ div.common_para_two{
 
 /* Academic */
 
-.dataparallax {
+.academicparallax {
   /* The image used */
   background-image: url("../images/studenttutor.png");
 
@@ -455,8 +435,9 @@ div.common_para_two{
   font-size: 3em; /* Adjust font size as needed */
   padding: 20px;
   background-color:rgba(0, 109, 182, 0.874);
+  border-radius: 10%;
   width: 300px;
-
+  border-radius: 10px;
 }
 
 .workdata {
@@ -472,7 +453,7 @@ div.common_para_two{
   font-size: 3.5em; /* Adjust font size as needed */
 }
 
-.dataparallax_main {
+.academicparallax_main {
   /* The image used */
   background-image: url("../images/studenttutor.png");
 
@@ -486,7 +467,7 @@ div.common_para_two{
   background-size: cover;
 }
 
-.dataparallax_intro {
+.academicparallax_intro {
   
   background-image: url("../images/studenttutor.png");
 
@@ -506,7 +487,6 @@ div.common_para_two{
   
   background-image: url("../images/happydiversestudents.avif");
 
-  
   min-height: 500px;
   
   
@@ -520,3 +500,31 @@ div.common_para_two{
   line-height: 2.5;
 }
 
+.academic1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
+.aid1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
+
+.student1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
