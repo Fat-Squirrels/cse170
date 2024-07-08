@@ -241,16 +241,6 @@ h2.cyber_news{
   text-align: center;
 }
 
-h1.com_atth1{
-  text-align: center;
-  font-size: 3.5em;
-  color: white;
-  margin: 0;
-  padding: 20px;
-  height: 13%;
-  background: rgb(0, 109, 182, 0.874);
-}
-
 iframe {
   width: 100%;
 }
@@ -366,19 +356,6 @@ div.common_para_two{
           position: relative;
         }
 
-        .com_atth1 {
-          /* Position the heading absolutely */
-          position: absolute;
-          /* Center the heading vertically and horizontally */
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          /* Additional styles for better visibility */
-          color: black;
-          text-align: center;
-          font-size: 3em;
-        }
-
 
 /* Databases */
 
@@ -412,7 +389,7 @@ div.common_para_two{
   background-color:rgba(0, 109, 182, 0.874);
   border-radius: 10%;
   width: 300px;
-
+  border-radius: 10px;
 }
 
 .workdata {
