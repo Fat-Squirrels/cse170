@@ -103,7 +103,10 @@ h1.headercard {
 
 h2.head2_container{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  background-color: #006EB6;
+  border-radius: 1.5em;
+  color: white;
 }
 
 h2.sub2head2 {
@@ -407,6 +410,7 @@ div.common_para_two{
   font-size: 3em; /* Adjust font size as needed */
   padding: 20px;
   background-color:rgba(0, 109, 182, 0.874);
+  border-radius: 10%;
   width: 300px;
 
 }
@@ -470,3 +474,31 @@ div.common_para_two{
   line-height: 2.5;
 }
 
+.academic1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
+.aid1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
+
+.student1 {
+  color: white;
+  background-color: #006EB6;
+  border-color: white;
+  border-radius: 5%;
+  height: 100px;
+  width: 200px;
+  font-size: 1.2em;
+}
