@@ -249,9 +249,9 @@ p .commonattacks{
   padding: 20px 50px;
 }
 
-main.common_cyber_main{
+/* main.common_cyber_main{
   margin-top: 0px;
-}
+} */
 
 div.overlap{
   display: grid;
@@ -437,7 +437,6 @@ div.common_para_two{
   
   background-image: url("../images/happydiversestudents.avif");
 
-  
   min-height: 500px;
   
   
