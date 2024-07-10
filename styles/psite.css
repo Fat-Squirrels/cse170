@@ -263,6 +263,11 @@ div.acaoverlap{
   grid-template-columns: repeat(10, 1fr);
 }
 
+div.w_acaoverlap{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
 div.common_para_two{
   margin: 60px;
 }
@@ -306,9 +311,27 @@ div.common_para_two{
   color: var(--paragraph-color-on-white); 
   text-align: center; 
   box-shadow: 30px 5px 10px #6f7364; 
-  grid-column: 6/10;
+  grid-column: 4/8;
   grid-row: 3/7;
   border-radius: 20px;
+}
+
+.w_aca_msg {
+  background-color: var(--paragraph-background-color); 
+  padding: 35px; 
+  margin-top: 0px; 
+  color: white; 
+  text-align: center; 
+  box-shadow: 30px 5px 10px #6f7364; 
+  grid-column: 4/8;
+  grid-row: 3/7;
+  border-radius: 20px;
+}
+
+.w_acaoverlap h2{
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .lifemsg {
