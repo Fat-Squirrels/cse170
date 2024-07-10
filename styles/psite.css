@@ -555,3 +555,7 @@ div.common_para_two{
   text-align: center;
   font-size: 1.1em;
 }
+
+p {
+  line-height: 2.5;
+}
