@@ -258,6 +258,11 @@ div.overlap{
   grid-template-columns: repeat(10, 1fr);
 }
 
+div.acaoverlap{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
 div.common_para_two{
   margin: 60px;
 }
@@ -294,6 +299,18 @@ div.common_para_two{
   border-radius: 40px;
 }
 
+.aca_msg {
+  background-color: var(--paragraph-background-color); 
+  padding: 35px; 
+  margin-top: 0px; 
+  color: var(--paragraph-color-on-white); 
+  text-align: center; 
+  box-shadow: 30px 5px 10px #6f7364; 
+  grid-column: 6/10;
+  grid-row: 3/7;
+  border-radius: 20px;
+}
+
 .lifemsg {
   background-color: var(--paragraph-background-color); 
   padding: 35px; 
@@ -312,6 +329,15 @@ div.common_para_two{
   color: var(--headline-color-on-color); /* Set heading color */
 }
 
+.aca_msg h2 {
+  font-size: 1.5em; 
+  margin-bottom: 20px; 
+  color: black; 
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .msg p {
   font-size: 18px; /* Adjust font size for paragraph */
   line-height: 1.5; /* Set line height for better readability */
@@ -321,6 +347,15 @@ div.common_para_two{
 .msg .join {
   color: var(--headline-color-on-color); /* Set text color */
   background-color: var(--accent1-color); /* Set background color */
+  text-decoration: none; /* Remove default underline */
+  font-size: 18px; /* Adjust font size */
+  padding: 15px 30px; /* Add padding for button */
+  border-radius: 15px; /* Add border radius for button */
+}
+
+.aca_msg .aca_join {
+  color: black; /* Set text color */
+  background-color: white; /* Set background color */
   text-decoration: none; /* Remove default underline */
   font-size: 18px; /* Adjust font size */
   padding: 15px 30px; /* Add padding for button */
