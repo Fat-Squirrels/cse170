@@ -139,7 +139,7 @@ main{
 p {
   font-family: var(--paragraph-font);
   padding: 20px 30px;
-  font-size: 1.5em;
+  font-size: 22px;
 }
 
 #hero {
@@ -612,4 +612,20 @@ div.common_para_two{
 .academic-para {
   text-align: center;
   font-size: 1.1em;
+}
+
+p {
+  line-height: 2.5;
+}
+
+.favorite-link {
+  background-color: #006EB6;
+  color: white;
+  width: 30%;
+  height: 80%;
+  display: flex;
+}
+
+.mybyuibuiltin {
+  margin-bottom: 3%;
 }
