@@ -367,7 +367,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/smileyface.png");
+          background-image: url("../images/tulips.jpg");
         
           /* Set a specific height */
           min-height: 500px;
@@ -381,7 +381,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/smileyface.png");
+          background-image: url("../images/tulips.jpg");
           /* Set a specific height */
           min-height: 500px;
           
@@ -489,7 +489,7 @@ div.common_para_two{
 
 .indexparallax_intro {
   
-  background-image: url("../images/byuipic.avif");
+  background-image: url("../images/trees.jpg");
 
   min-height: 500px;
   
