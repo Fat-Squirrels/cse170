@@ -500,6 +500,12 @@ div.common_para_two{
   line-height: 2.5;
 }
 
+.essential-buttons {
+  display: flex;
+  justify-content: space-around; /* This will space the buttons equally */
+  width: 100%;
+}
+
 .academic1 {
   color: white;
   background-color: #006EB6;
@@ -508,7 +514,9 @@ div.common_para_two{
   height: 100px;
   width: 200px;
   font-size: 1.2em;
+  grid-column: 1;
 }
+
 .aid1 {
   color: white;
   background-color: #006EB6;
@@ -517,6 +525,7 @@ div.common_para_two{
   height: 100px;
   width: 200px;
   font-size: 1.2em;
+  grid-column: 2;
 }
 
 .student1 {
@@ -527,4 +536,18 @@ div.common_para_two{
   height: 100px;
   width: 200px;
   font-size: 1.2em;
+  grid-column: 3;
+}
+
+.para-intro{
+  text-align: center;
+  font-size: 2.5em;
+  background-color: #006EB6;
+  border-radius: 1.5em;
+  color: white;
+}
+
+.academic-para {
+  text-align: center;
+  font-size: 1.1em;
 }
