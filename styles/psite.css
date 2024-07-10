@@ -340,6 +340,10 @@ div.common_para_two{
   background-color: var(--accent2-color); /* Change background color on hover */
 }
 
+.blue-box-text {
+  color: white;
+}
+
 /* Parallax*/
 
 @media only screen and (max-width: 1366px) {
