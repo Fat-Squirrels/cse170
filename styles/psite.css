@@ -301,8 +301,8 @@ div.common_para_two{
   color: var(--paragraph-color-on-white); 
   text-align: center; 
   box-shadow: 30px 5px 10px #6f7364; 
-  grid-column: 6/10;
-  grid-row: 3/7;
+  grid-column: 4/8;
+  grid-row: 4/7;
   border-radius: 40px;
 }
 
@@ -348,7 +348,7 @@ div.common_para_two{
   }
 }
 
-/*Aids*/
+/*Assistance*/
 
 .parallax {
   background-image: url("your-image.jpg"); /* Replace "your-image.jpg" with the path to your background image */
@@ -356,9 +356,9 @@ div.common_para_two{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh; /* Set the height to 100 viewport height units to make it full-screen */
+  min-height: 500px; 
   position: relative;
-  z-index: -1; /* Ensure the parallax background stays behind the content */
+  z-index: -1; 
 }
 
         .parallax {
@@ -389,7 +389,7 @@ div.common_para_two{
           position: relative;
         }
 
-/* Student Life */
+/* Life */
 
 .life_parallax {
   /* The image used */
