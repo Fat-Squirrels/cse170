@@ -594,10 +594,15 @@ div.common_para_two{
 p {
   line-height: 2.5;
 }
+
 .favorite-link {
   background-color: #006EB6;
   color: white;
   width: 30%;
   height: 80%;
   display: flex;
+}
+
+.mybyuibuiltin {
+  margin-bottom: 3%;
 }
