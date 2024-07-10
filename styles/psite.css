@@ -139,7 +139,7 @@ main{
 p {
   font-family: var(--paragraph-font);
   padding: 20px 30px;
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 #hero {
@@ -375,6 +375,10 @@ div.common_para_two{
   background-color: var(--accent2-color); /* Change background color on hover */
 }
 
+.blue-box-text {
+  color: white;
+}
+
 /* Parallax*/
 
 @media only screen and (max-width: 1366px) {
@@ -398,7 +402,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/smileyface.png");
+          background-image: url("../images/tulips.jpg");
         
           /* Set a specific height */
           min-height: 500px;
@@ -412,7 +416,7 @@ div.common_para_two{
 
         .parallax {
           /* The image used */
-          background-image: url("../images/smileyface.png");
+          background-image: url("../images/tulips.jpg");
           /* Set a specific height */
           min-height: 500px;
           
@@ -520,7 +524,7 @@ div.common_para_two{
 
 .indexparallax_intro {
   
-  background-image: url("../images/byuipic.avif");
+  background-image: url("../images/trees.jpg");
 
   min-height: 500px;
   
